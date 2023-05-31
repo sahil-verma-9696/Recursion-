@@ -4,8 +4,8 @@ int linearSearch(int arr[], int key, int n){
 	//base case 
 	if(n == 0 && key != arr[n-1])
 	return -1;
-	if(n == 0 )
-	return arr[0];
+	
+	
 	
 	//process
 	printf("n = %d\n",n);
